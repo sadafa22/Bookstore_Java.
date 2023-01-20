@@ -1,0 +1,24 @@
+public class Order {
+    //attributes
+     private Customer customer;
+     private Stock stock;
+
+    public Order(Customer customer, Stock stock) {
+        //complete the constructor
+        this.customer=customer;
+        this.stock=stock;
+
+
+    }
+
+    //complete the getters()
+    public Customer getCustomer() {
+
+        return this.customer;
+    }
+
+    public Stock getStock() {
+
+        return this.stock;
+    }
+}
